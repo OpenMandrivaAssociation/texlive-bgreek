@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /language/greek/bgreek
+# catalog-date 2009-02-21 22:05:10 +0100
+# catalog-license lppl
+# catalog-version 0.3
 Name:		texlive-bgreek
 Version:	0.3
 Release:	1
@@ -343,6 +349,7 @@ support macros for use with LaTeX.
 %doc %{_texmfdistdir}/doc/latex/bgreek/bgreek.etx
 %doc %{_texmfdistdir}/doc/latex/bgreek/cbgreek.etx
 %doc %{_texmfdistdir}/doc/latex/bgreek/qbgreek.etx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -353,3 +360,5 @@ support macros for use with LaTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
