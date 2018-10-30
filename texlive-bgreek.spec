@@ -6,7 +6,7 @@
 # catalog-version 0.3
 Name:		texlive-bgreek
 Version:	0.3
-Release:	11
+Release:	12
 Summary:	Using Beccari's fonts in betacode for classical Greek
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/greek/bgreek
