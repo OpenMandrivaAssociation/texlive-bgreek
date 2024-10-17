@@ -9,7 +9,7 @@ Version:	0.3
 Release:	13
 Summary:	Using Beccari's fonts in betacode for classical Greek
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/language/greek/bgreek
+URL:		https://www.ctan.org/tex-archive/language/greek/bgreek
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bgreek.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bgreek.doc.tar.xz
